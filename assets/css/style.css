@@ -1,0 +1,249 @@
+
+
+body {
+	background-image: url('../images/food.png');
+}
+
+header {
+	background-image: url('../images/grunge.png');
+	width: 100%;
+	height: 85px;
+	
+	margin-bottom: 85px;
+}
+
+.layer1 {
+	background-color: #64A7FA;
+	opacity: .4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 85px;
+}
+
+nav{
+	float: right;
+	margin-right: 5%;
+	margin-top: 50px;
+	font-weight: bold;
+
+}
+
+.moveup {
+	position: relative;
+	bottom: 86px;
+	height: 2px;
+}
+
+li {
+	display: inline;
+	font-family: 'Quicksand', sans-serif;
+	padding: 0px 10px 0px 10px;
+	font-size: 25px;
+	border-right: 1px solid #000000;
+}
+
+#name {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	padding: 40px 30px 15px 30px;
+	margin-left: 15%;
+	float: left;
+	background-color: #4574AD;
+	position: relative;
+}
+
+hr {
+	margin-top: 30px;
+	width: 90%;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.main {
+	width: 50%;
+	height: 300%;
+	float: left;
+	background-image: url('../images/grunge.png');
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+	margin-left: 15%;
+	margin-right: 2.5%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 5px 5px 3px #666666;
+}
+
+.photo1 {
+	float: left;
+	background-image: url('../images/projectone.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 300px;
+	height: 300px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+	margin-left: 10%;
+}
+
+.photo2 {
+	float: left;
+	background-image: url('../images/projecttwo.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 300px;
+	height: 300px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+}
+
+.photo3 {
+	float: left;
+	background-image: url('../images/projectthree.png');
+	background-size: cover;
+	background-position: center center;
+	width: 300px;
+	height: 300px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+	margin-left: 10%;
+}
+
+.photo4 {
+	float: left;
+	background-image: url('../images/projectfour.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 300px;
+	height: 300px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+}
+
+.photo5 {
+	float: left;
+	background-image: url('../images/projectfive.jpg');
+	background-size: cover;
+	background-position: center center;
+	width: 300px;
+	height: 300px;
+	padding: 5%;
+	margin: 30px;
+	border: 1px solid black;
+	margin-left: 10%;
+}
+
+.banner {
+	background-color: blue;
+	opacity: .8;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	position: relative;
+	top: 80%;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding: 5%;
+	text-align: center;
+
+}
+
+
+#about {
+	font-size: 35px;
+	font-family: 'Quicksand', sans-serif;
+	padding-top: 5%;
+	padding-left: 6%;
+}
+
+.jamesphoto {
+	height: 40%; 
+	width: 35%;
+	float: left;
+	margin: 3%;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Exo', sans-serif;
+	line-height: 1.5em;
+	padding: 3%;
+}
+
+.main2 {
+	width: 20%;
+	height: 40%;
+	background-image: url('../images/grunge.png');
+	float: left;
+	margin-right: 5%;
+	margin-left: 60px;
+	margin-top: 60px;
+	box-shadow: 5px 5px 3px #666666;
+}
+
+.inline {
+	display: inline;
+	border: 1px solid red;
+}
+
+footer {
+	float: left;
+	background-image: url('../images/grunge.png');
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 3.0;
+	width: 100%;
+	padding-top: : 50px;
+	padding-bottom: 30px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+
+}
+
+.layer {
+	background-color: #64A7FA;
+	opacity: .4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	background-image: url('../images/grunge.png');
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.linkedin {
+	height: 100px;
+	width: 100px;
+	align-content: center;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	font-size: 25px;
+	li:last {
+	border-right: none;
+}
+
+form {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+}
+
+.submit {
+
+}
